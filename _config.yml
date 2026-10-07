@@ -33,6 +33,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-scholar
+  - jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -41,8 +42,6 @@ exclude:
   - _bibliography/schema.bib
   - Dockerfile
   - compose.yaml
-plugins:
-  - jekyll-redirect-from
 
 # See https://github.com/jekyll/minima/issues/709, can be removed when minima ships another release
 sass:
